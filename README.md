@@ -3,10 +3,10 @@
 The jupyter notebook 'track_analysis.ipynb' does some basic trackset analysis and plots some useful charts described below:
 
 1. Filter tracks for user-defined location X and Y with search radius (default 300 miles)
-2. Plot filteres tracks for locations X, Y and conditional occurence Y | X
+2. Plot filteres tracks for locations X, Y and conditional occurence (Y|X) at Y given events passed through X
 3. Plot probability density for Vm (cyclone windspeed)
 4. Plot annual frequency breakdown by hurricane category (saffir simpson scale)
-5. plot exceedance probability for location X and Y
+5. plot exceedance probability for location X, Y and conditional occurence (Y|X) at Y given events passed through X 
 
 The following python packages are required:
 numpy,
