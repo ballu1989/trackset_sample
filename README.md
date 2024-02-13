@@ -1,4 +1,4 @@
-# Info
+# General info
 
 The jupyter notebook 'track_analysis.ipynb' does some basic trackset analysis and plots some useful charts described below:
 
