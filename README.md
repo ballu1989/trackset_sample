@@ -9,12 +9,12 @@ The jupyter notebook 'track_analysis.ipynb' does some basic trackset analysis an
 5. plot exceedance probability for location X and Y
 
 The following python packages are required:
-numpy
-pandas
-matplotlib
-cartopy
-glob
-cartopy
+numpy,
+pandas,
+matplotlib,
+cartopy,
+glob,
+cartopy,
 shapely
 
 Sample figures
