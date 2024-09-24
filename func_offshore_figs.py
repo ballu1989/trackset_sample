@@ -60,7 +60,7 @@ def Plot_a_Gate(df, NSamp, city=None, what="Vm" , ) :
     ax1  = fig.add_subplot( gs[1])
 
     ## plot others DarkCyan
-    cores = [ ReaskColors["PinkRed"], ReaskColors["FlashyRed"]]
+    cores = [ ReaskColors["Yellow"], ReaskColors["PinkRed"], ReaskColors["FlashyRed"]]
     cc = -1
     for Source in models:
         if "ERA5" in Source: 
@@ -342,7 +342,7 @@ def EP_at_a_gate(region= 'NORTH_ATLANTIC',
                  gates = [26],
                  ):
     
-    warming_levels = ['3.00','4.00']
+    warming_levels = ['2.00', '3.00','4.00']
 
     subregion = get_subregion(region)
 
